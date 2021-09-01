@@ -1,13 +1,16 @@
+/*Universal selector*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/*Background color for visible web page element selector*/
 body {
   background-color: #d9dcd6;
 }
 
+/*navigation links and main header style element selector*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +19,18 @@ header {
   color: #ffffff;
 }
 
+/*Horiseon Main header element selector*/
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/*Horiseon main header the "seo" class selector*/
 header h1 .seo {
   color: #d9dcd6;
 }
 
+/*main nav section*/
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +39,29 @@ header nav {
   font-size: 20px;
 }
 
+/*main nav unordered list element selector*/
 header nav ul {
   list-style-type: none;
 }
 
+/*main nav list elements selector*/
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/*all links element selector*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/*all paragraphs element selector*/
 p {
   font-size: 16px;
 }
 
+/*top image class selector*/
 .hero {
   height: 800px;
   width: 100%;
@@ -60,22 +71,26 @@ p {
   background-position: center;
 }
 
+/*SEO section class selector*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/*Online reputation class selector*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/*main section of SEO, Online Reputation, and Social Media class selector*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/*aside portion of Lead Generation, Brand Awareness, Cost management class selector*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,6 +102,7 @@ p {
   background-color: #2589bd;
 }
 
+/*Separates the aside elements and sets color by class selectors*/
 .benefit-lead,
 .benefit-cost,
 .benefit-brand {
@@ -94,6 +110,7 @@ p {
   color: #ffffff;
 }
 
+/*Header 3 element selectors with aside class selectors*/
 .benefit-lead h3,
 .benefit-cost h3,
 .benefit-brand h3 {
@@ -101,6 +118,7 @@ p {
   text-align: center;
 }
 
+/*Image element selectors with aside class selectors*/
 .benefit-lead img,
 .benefit-cost img,
 .benefit-brand img {
@@ -109,6 +127,7 @@ p {
   max-width: 150px;
 }
 
+/*main section of webpage class selectors*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -120,12 +139,14 @@ p {
   color: #ffffff;
 }
 
+/*Image element selectors with main class selectors*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
   max-height: 200px;
 }
 
+/*Header 2 element selectors with main class selectors*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -133,6 +154,7 @@ p {
   font-size: 36px;
 }
 
+/*Footer element selector*/
 footer {
   padding: 30px;
   clear: both;
@@ -141,6 +163,7 @@ footer {
   text-align: center;
 }
 
+/*Footer Header 2 element selector*/
 footer h2 {
   font-size: 20px;
 }
