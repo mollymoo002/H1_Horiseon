@@ -7,7 +7,9 @@ https://mollymoo002.github.io/H1_Horiseon/
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 ## Usage
 The navigational links at the top right of the site will take you to various sections within the page for more information on what services Horiseon has to offer.
+
 ![image](https://user-images.githubusercontent.com/38664351/131596572-924c786f-af03-4414-ab86-86c0d0b6d5f9.png)
+
 ## Credits
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 - https://upenn.bootcampcontent.com/upenn-bootcamp/upenn-virt-fsf-ft-08-2021-u-lol
